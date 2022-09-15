@@ -15,5 +15,6 @@ jobs:
               owner: 'edx',
               repo: 'nedbat-test-trigger-build',
               workflow_id: 'build.yml',
-              ref: 'main'
+              ref: 'main',
+              inputs: {key: "17"}
             })
