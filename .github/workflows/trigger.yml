@@ -9,7 +9,7 @@ jobs:
       - name: "Trigger the edX build workflow"
         uses: actions/github-script@v6
         with:
-          #github-token: ${{ secrets.PAT_TOKEN }}
+          github-token: ${{ secrets.EDX_BUILD_TOKEN }}
           script: |
             await github.rest.actions.createWorkflowDispatch({
               owner: 'edx',
