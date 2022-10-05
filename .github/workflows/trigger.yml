@@ -20,3 +20,4 @@ jobs:
               ref: 'main',
               inputs: {key: "17"}
             })
+            echo "test trigger"
