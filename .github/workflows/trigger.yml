@@ -19,6 +19,5 @@ jobs:
               repo: 'nedbat-test-trigger-build',
               workflow_id: 'build.yml',
               ref: 'main',
-              inputs: {key: "17"}
+              inputs: {key: "555"}
             })
-            echo "test trigger"
